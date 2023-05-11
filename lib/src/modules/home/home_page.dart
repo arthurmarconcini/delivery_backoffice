@@ -37,7 +37,7 @@ class _HomePageState extends State<HomePage> with Loader, Messagens {
                     decoration: const InputDecoration(
                       label: Text('login'),
                     ),
-                    validator: (String) => 'Error',
+                    validator: (String? string) => 'Error',
                   ),
                 ),
               ),
